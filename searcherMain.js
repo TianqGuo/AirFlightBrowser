@@ -14,6 +14,7 @@ const password = "";
 
 puppeteer.use(StealthPlugin());
 
+
 (async () => {
     // const browser = await puppeteer.launch({headless: false, executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' });
     const browser = await puppeteer.launch({headless: false, executablePath: executablePath() });
